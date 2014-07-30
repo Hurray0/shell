@@ -1,0 +1,5 @@
+#!/bin/sh
+#Hello World程序
+a="Hello World"
+echo "A is:"
+echo $a

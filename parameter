@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "Program name is $0" //程序的完整路径和名字
+echo "There are totally $# parameters passed to this program"; //参数的总数
+echo "The last is $?";  //程序执行效果
+echo "The parameter are $*";  //返回由参数组成的字符串
+echo "The first parameter are $1"

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+secret = 18542dd6a67da16aece4f745306b0ab4
+a=`php -r "echo md5($(date +%Y-%m-%d+%T).${HOSTNAME%%.*});"`

@@ -1,0 +1,8 @@
+#! /bin/sh
+
+#此程序还没试成功！
+echo "please input x y"
+read x
+read y
+z=`expr $x+$y`
+echo "The sum is $z"
