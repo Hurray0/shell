@@ -128,4 +128,28 @@ $ find . -type f -mmin -10
 ##15.gzip压缩
 >gzip 文件; 
 
-##16.
+##16.svn使用
+
+###同步代码
+>svn checkout https://svn.sinaapp.com/hurray0
+
+###上传代码
+>svn checkout https://svn.sinaapp.com/hurray0
+
+>cd newapp/1
+
+>cp -rf /path/to/wordpress/* ./
+
+>svn add ./
+
+>svn commit -m"add wordpress"
+
+###修改代码
+
+>svn checkout https://svn.sinaapp.com/hurray0 #如果已经checkout过了，不需要重新checkout。
+
+>cd newapp/1
+
+>vim index.php #这里编辑代码
+
+>svn commit -m "edit index.php"
