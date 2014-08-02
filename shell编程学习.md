@@ -153,3 +153,17 @@ $ find . -type f -mmin -10
 >vim index.php #这里编辑代码
 
 >svn commit -m "edit index.php"
+
+##17.chmod设置文件权限
+
+>chmod ［who］ ［+ | - | =］ ［mode］ 文件名
+
+>u 表示“用户（user）”，即文件或目录的所有者。
+
+>g 表示“同组（group）用户”，即与文件属主有相同组ID的所有用户。
+
+>o 表示“其他（others）用户”。
+
+>a 表示“所有（all）用户”。它是系统默认值。
+
+>例如chmod a+rwx README.md
