@@ -1,9 +1,0 @@
-#!/bin/sh
-
-curl -d "DDDDD=2012212033&upass=010099&R1=0" "10.3.8.211"  -o output.html 2>/dev/null
-
-python ~/desktop/百度云同步盘/Mac客户端同步/code/python/getIPAdress.py
-
-curl 10.125.123.204:8000
-
-exit
