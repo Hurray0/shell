@@ -167,3 +167,7 @@ $ find . -type f -mmin -10
 >a 表示“所有（all）用户”。它是系统默认值。
 
 >例如chmod a+rwx README.md
+
+##18.关于网络
+
+>netstat
